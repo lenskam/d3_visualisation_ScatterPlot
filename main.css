@@ -1,0 +1,25 @@
+h1, h2 {
+  text-align: center;
+}
+body {
+  padding: 30px;
+}
+.svg {
+  display: block;
+  margin: auto;
+  background-color: white;
+}
+.dot {
+  stroke: #000;
+  opacity: 0.8;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
